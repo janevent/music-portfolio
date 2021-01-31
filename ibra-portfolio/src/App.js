@@ -1,11 +1,27 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Profile from './components/Profile.js';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div><h2>The Lion's Whiskers</h2></div>
+      </header>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/profile" component={Profile} />
+        </Switch>
+      </BrowserRouter>
+
+    </div>
+  );
+}
+
+export default App;
+
+{/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,10 +32,4 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+        </a> */}
