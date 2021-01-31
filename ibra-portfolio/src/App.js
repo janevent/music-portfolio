@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
 import Profile from './components/Profile.js';
+import NavigationBar from './components/NavigationBar.js';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div><h2>The Lion's Whiskers</h2></div>
+        <NavigationBar />
       </header>
       <BrowserRouter>
         <Switch>
