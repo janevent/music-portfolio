@@ -1,0 +1,21 @@
+.NavigationBar{
+    font-size:large;
+    background-color: rgb(21, 245, 21);/*rgb(47, 99, 167); /*rgb(4, 131, 42);*/
+    color: darkolivegreen;
+    min-width: auto;
+    min-height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+   /* border-top-style: solid;
+    /*border-color:greenyellow;*/
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: darkolivegreen;
+}

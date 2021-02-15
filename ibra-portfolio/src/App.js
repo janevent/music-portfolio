@@ -9,13 +9,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div><h2>The Lion's Whiskers</h2></div>
-        <NavigationBar />
+       
       </header>
+      <NavigationBar />
+      <div className="main" >
       <BrowserRouter>
         <Switch>
           <Route path="/profile" component={Profile} />
         </Switch>
       </BrowserRouter>
+      </div>
 
     </div>
   );

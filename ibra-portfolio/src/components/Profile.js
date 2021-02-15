@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Profile.css';
 
 export default class Profile extends React.Component{
     constructor(){
@@ -11,7 +12,7 @@ export default class Profile extends React.Component{
 
     render(){
         return(
-            <div className={Profile}>
+            <div className="Profile">
                 <h3>{this.state.name}</h3>
                 <div className="paragraphs">{this.state.par1}</div>
             </div>

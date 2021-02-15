@@ -1,0 +1,10 @@
+.Profile{
+    background-color: rgb(243, 243, 217);
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-style: hidden;
+    border-radius: 15px;
+}
