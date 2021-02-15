@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/Profile.css';
-import ntare from '../texts/profile.js';
+
 
 export default class Profile extends React.Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         this.state = {
-            name: ntare.name,
-            par1: ntare.autobio
+            name: props.profile.name,
+            autobio: props.profile.autobio
         }
     }
 
@@ -15,8 +15,9 @@ export default class Profile extends React.Component{
         return(
             <div className="Profile">
                 <h3>{this.state.name}</h3>
-                <div className="paragraphs">{this.state.par1}</div>
+                <div className="paragraphs">{this.state.autobio}</div>
             </div>
         )
     }
 }
+

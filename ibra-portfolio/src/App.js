@@ -3,8 +3,16 @@ import './App.css';
 import Profile from './components/Profile.js';
 import NavigationBar from './components/NavigationBar.js';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import autobio from './texts/autobio.txt';
 
 function App() {
+  this.state = {
+    profile : {
+      name: Ntare,
+      autobio: autobio
+    }
+  }
+
   return (
     <div className="App">
       <header className="App-header">
