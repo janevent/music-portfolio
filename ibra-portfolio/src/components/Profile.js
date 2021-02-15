@@ -1,12 +1,13 @@
 import React from 'react';
 import '../styles/Profile.css';
+import ntare from '../texts/profile.js';
 
 export default class Profile extends React.Component{
     constructor(){
         super()
         this.state = {
-            name: 'Ibrahim Ntare',
-            par1: ''
+            name: ntare.name,
+            par1: ntare.autobio
         }
     }
 
