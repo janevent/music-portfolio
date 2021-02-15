@@ -3,17 +3,19 @@ import './App.css';
 import Profile from './components/Profile.js';
 import NavigationBar from './components/NavigationBar.js';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import autobio from './texts/autobio.txt';
+import React from 'react';
+import autobio from'./texts/autobio.js';
 
-function App() {
-  this.state = {
+class App extends React.Component {
+  state = {
     profile : {
-      name: Ntare,
+      name: "Ntare",
       autobio: autobio
     }
   }
 
-  return (
+  render (){
+    return (
     <div className="App">
       <header className="App-header">
         <div><h2>The Lion's Whiskers</h2></div>
@@ -23,13 +25,14 @@ function App() {
       <div className="main" >
       <BrowserRouter>
         <Switch>
-          <Route path="/profile" component={Profile} />
+          <Route path="/profile" render={(props) => <Profile {...props} profile={this.state.profile}/>} />
         </Switch>
       </BrowserRouter>
       </div>
 
     </div>
-  );
+    );
+  }
 }
 
 export default App;
