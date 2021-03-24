@@ -6,7 +6,7 @@ export default class NavigationBar extends React.Component {
     render(){
         return (
             <div className="NavigationBar">
-                <BrowserRouter><Link to="/Profile">Profile</Link></BrowserRouter>
+                <BrowserRouter><Link to="/profile">Profile</Link></BrowserRouter>
             </div>
         )
     }
