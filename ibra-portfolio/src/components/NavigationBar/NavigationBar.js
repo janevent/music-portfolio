@@ -1,7 +1,7 @@
-import '../styles/NavigationBar.css';
+import './NavigationBar.css';
 import React from 'react';
-import { Link, BrowserRouter } from 'react-router-dom';
-import Home from './Home';
+import { Link } from 'react-router-dom';
+
 
 export default class NavigationBar extends React.Component {
     render(){

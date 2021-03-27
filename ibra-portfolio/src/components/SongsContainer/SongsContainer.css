@@ -1,0 +1,21 @@
+.SongsContainer{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    color: darkolivegreen;
+   /* background-color: rgb(241, 241, 169);*/
+   background-image: url("raja-natarajan-ymQlRqwLcUo-unsplash.jpg")
+}
+
+h2{
+    color: darkolivegreen;
+    align-self: flex-start;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    border-width: 100%;
+    border-bottom-style:groove;
+    border-color: darkolivegreen;
+}

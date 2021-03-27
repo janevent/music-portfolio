@@ -1,6 +1,7 @@
 import React from 'react';
-import DisplaySong from './DisplaySong';
-import songs from '../songs';
+import DisplaySong from '../DisplaySong/DisplaySong';
+import './SongsContainer.css';
+import songs from '../../songs';
 
 export default class SongsContainer extends React.Component{
     state = {
@@ -16,7 +17,6 @@ export default class SongsContainer extends React.Component{
     render(){
         return (
             <div className='SongsContainer'>
-                <h2>Artist</h2>
                 <h2> Afrik Ntare</h2>
                 <div>
                     {this.mapSongs()}

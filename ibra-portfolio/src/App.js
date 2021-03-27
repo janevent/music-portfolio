@@ -2,8 +2,8 @@
 import './App.css';
 import Home from './components/Home';
 import Profile from './components/Profile.js';
-import SongsContainer from './components/SongsContainer.js';
-import NavigationBar from './components/NavigationBar.js';
+import SongsContainer from './components/SongsContainer/SongsContainer.js';
+import NavigationBar from './components/NavigationBar/NavigationBar.js';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import React from 'react';
 import autobio from'./texts/autobio.js';

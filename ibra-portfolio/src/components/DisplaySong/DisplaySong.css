@@ -1,0 +1,8 @@
+.DisplaySong {
+    /*background-color: rgb(241, 241, 169);*/
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

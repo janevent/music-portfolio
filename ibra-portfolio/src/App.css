@@ -26,7 +26,7 @@
 
 .App-header {
   background-color: rgb(247, 247, 28);/* #21d830;*/
-  min-height: 25vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,6 +34,8 @@
   font-size: calc(10px + 2vmin);
   font-family: Swift;
   color: darkolivegreen; /*#d8c621;*/
+  border-style: none;
+  border-color: none;
 }
 
 .App-link {

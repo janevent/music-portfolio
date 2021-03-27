@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player'; 
+import './DisplaySong.css'
 
 export default class DisplaySong extends React.Component {
     constructor(props){
