@@ -17,7 +17,7 @@ export default class SongsContainer extends React.Component{
     render(){
         return (
             <div className='SongsContainer'>
-                <h2> Afrik Ntare</h2>
+                <h2 className="name"> Afrik Ntare</h2>
                 <div>
                     {this.mapSongs()}
                 </div>

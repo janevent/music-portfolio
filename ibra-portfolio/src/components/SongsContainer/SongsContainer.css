@@ -1,21 +1,25 @@
 .SongsContainer{
+    padding-top: 10px;
     display: flex;
     
     flex-direction: column;
     justify-content: flex-start;
-    color: darkolivegreen;
+    color:rgb(31, 39, 39);
    /* background-color: rgb(241, 241, 169);*/
    background-image: url("raja-natarajan-ymQlRqwLcUo-unsplash.jpg")
 }
 
+.name{
+    color:rgb(31, 39, 39);
+    border-width: 100%;
+    border-bottom-style:groove;
+    border-color: rgb(139, 247, 247);
+}
+
 h2{
-    color: darkolivegreen;
     align-self: flex-start;
     text-align: left;
     padding: 10px;
     margin-bottom: 40px;
     margin-top: 50px;
-    border-width: 100%;
-    border-bottom-style:groove;
-    border-color: darkolivegreen;
 }

@@ -1,9 +1,11 @@
 .App {
   text-align: center;
   background-color: rgb(241, 241, 169);
+  color: rgb(110, 147, 248);
   position: absolute;
   height: 100%;
   width: 100%;
+  font-family: Arial;
   /*display: flex;
   flex-direction: column;
   height: 100%;*/
@@ -32,10 +34,15 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  font-family: Swift;
-  color: darkolivegreen; /*#d8c621;*/
+  font-family: Arial;
+  /*font-family: Swift;*/
+  color:rgb(110, 147, 248); /*#d8c621;*/
   border-style: none;
   border-color: none;
+}
+
+h2{
+  color:rgb(110, 147, 248);
 }
 
 .App-link {

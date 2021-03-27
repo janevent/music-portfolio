@@ -15,6 +15,7 @@ export default class DisplaySong extends React.Component {
     render(){
         return(
             <div className='DisplaySong'>
+                <h2 className="songTitle">{this.state.title}</h2>
                 <ReactPlayer url={this.state.url} />
             </div>
         )

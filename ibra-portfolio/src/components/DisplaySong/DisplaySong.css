@@ -1,8 +1,18 @@
 .DisplaySong {
     /*background-color: rgb(241, 241, 169);*/
-    padding: 10px;
+    /*padding: 10px;*/
+    color:rgb(31, 39, 39);
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.songTitle{
+   padding-top:10px;
+   padding-bottom:5px;
+   color:rgb(31, 39, 39);
+   border-width: 100%;
+    border-bottom-style:groove;
+    border-color: rgb(139, 247, 247);
 }
