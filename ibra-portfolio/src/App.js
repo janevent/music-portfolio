@@ -11,7 +11,7 @@ import autobio from'./texts/autobio.js';
 class App extends React.Component {
   state = {
     profile : {
-      name: "Ntare",
+      name: "Afrik",
       autobio: autobio
     }
   }
@@ -26,8 +26,7 @@ class App extends React.Component {
           <NavigationBar />
           <div className="main" >         
             <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/profile" render={(props) => <Profile {...props} profile={this.state.profile}/>} />
+              <Route exact path="/" render={(props) => <Profile {...props} profile={this.state.profile}/>} />
               <Route exact path="/songs" component={SongsContainer} />
             </Switch>
           </div>

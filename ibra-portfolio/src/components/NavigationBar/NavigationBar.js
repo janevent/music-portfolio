@@ -6,12 +6,9 @@ import { Link } from 'react-router-dom';
 export default class NavigationBar extends React.Component {
     render(){
         return (
-            <div className="NavigationBar">
-                
-                    <Link to="/profile">Profile</Link>
+            <div className="NavigationBar">               
                     <Link to="/songs">Songs</Link>
-                    <Link to="/">Home</Link>
-                
+                    <Link to="/">About</Link>                
             </div>
         )
     }

@@ -1,7 +1,11 @@
+
+
 .App {
   text-align: center;
-  background-color: rgb(241, 241, 169);
-  color: rgb(110, 147, 248);
+  /*background-color: rgb(241, 241, 169);*/
+  background-image: url("nashad-abdu-lbuXprjhtc4-unsplash-cropped.jpg");
+  background-size: cover;
+  color: #FB8C14;/*#1507F8;*/
   position: absolute;
   height: 100%;
   width: 100%;
@@ -15,19 +19,9 @@
   flex: 1 1 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: rgb(247, 247, 28);/* #21d830;*/
+  background-color: #FAFF00;/* #21d830;*/
+  opacity: .75;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -36,24 +30,15 @@
   font-size: calc(10px + 2vmin);
   font-family: Arial;
   /*font-family: Swift;*/
-  color:rgb(110, 147, 248); /*#d8c621;*/
+  /*color:rgb(110, 147, 248); /*#d8c621;*/
+  color: #FB8C14;/*#1507F8;
+  /*#1507F8;*/
   border-style: none;
   border-color: none;
 }
 
 h2{
-  color:rgb(110, 147, 248);
+  color:#FB8C14;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

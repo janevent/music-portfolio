@@ -1,7 +1,8 @@
 .DisplaySong {
     /*background-color: rgb(241, 241, 169);*/
     /*padding: 10px;*/
-    color:rgb(31, 39, 39);
+    /*background-image: url(../../nashad-abdu-lbuXprjhtc4-unsplash-cropped.jpg);*/
+    /*background-color: rgb(48, 252, 48, 0.5);*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,8 +12,10 @@
 .songTitle{
    padding-top:10px;
    padding-bottom:5px;
-   color:rgb(31, 39, 39);
+   color:#1507F8;
    border-width: 100%;
-    border-bottom-style:groove;
-    border-color: rgb(139, 247, 247);
+}
+
+.ReactPlayer {
+    opacity: 1;
 }

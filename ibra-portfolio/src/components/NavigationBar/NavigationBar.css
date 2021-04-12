@@ -1,21 +1,23 @@
+@import "colors.css";
+
 .NavigationBar{
     font-size:large;
     font-family: Arial;
-    background-color: rgb(206, 252, 206);/*rgb(47, 99, 167); /*rgb(4, 131, 42);*/
-    color: darkolivegreen;
+   /*#B7FF74;/*#7BFF00; /*#e7e5fe;
+    /*rgb(206, 252, 206);/*rgb(47, 99, 167); /*rgb(4, 131, 42);*/
     min-width: auto;
     min-height: 8vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;   
-   /* border-top-style: solid;
-    /*border-color:greenyellow;*/    
+    justify-content: center;      /*
+    padding-top: 10px; */
 }
 
 a {
     text-decoration: none;
-    color:rgb(110, 147, 248);
+    color: var(--ora);
+    /*#d8c621;
     /*font-family: Swift;*/
     font-weight: bold;
     font-size: 1.5em;

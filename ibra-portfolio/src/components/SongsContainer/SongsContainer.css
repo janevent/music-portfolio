@@ -5,15 +5,23 @@
     flex-direction: column;
     justify-content: flex-start;
     color:rgb(31, 39, 39);
+    background-color: rgb(48, 252, 48, 0.5);
+    /*background-image: url(../../nashad-abdu-lbuXprjhtc4-unsplash.jpg);
+    background-size: cover;
+    opacity: 0.5;*/
    /* background-color: rgb(241, 241, 169);*/
-   background-image: url("raja-natarajan-ymQlRqwLcUo-unsplash.jpg")
+   /*background-image: url("raja-natarajan-ymQlRqwLcUo-unsplash.jpg")*/
+}
+
+.ReactPlayer {
+    opacity: 1;
 }
 
 .name{
-    color:rgb(31, 39, 39);
+    color:rgb(247, 247, 28);
     border-width: 100%;
     border-bottom-style:groove;
-    border-color: rgb(139, 247, 247);
+    border-color: #E0DFFD;
 }
 
 h2{
