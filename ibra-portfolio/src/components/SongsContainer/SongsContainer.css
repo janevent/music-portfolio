@@ -5,7 +5,8 @@
     flex-direction: column;
     justify-content: flex-start;
     color:rgb(31, 39, 39);
-    background-color: rgb(48, 252, 48, 0.5);
+    background-image: linear-gradient( rgb(48, 252, 48, 0.7),#6EE300)
+    /*linear-gradient( rgb(48, 252, 48, 0.5), rgb(48, 252, 48, 1));
     /*background-image: url(../../nashad-abdu-lbuXprjhtc4-unsplash.jpg);
     background-size: cover;
     opacity: 0.5;*/
