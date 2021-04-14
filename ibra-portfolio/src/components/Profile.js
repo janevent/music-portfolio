@@ -14,9 +14,10 @@ export default class Profile extends React.Component{
     render(){
         return(
             <div className="Profile">
-                
-                <h1>About {this.state.name}</h1>
-                <div className="paragraphs">{this.state.autobio}</div>
+                <div className="profile-container">
+                    <h1>About {this.state.name}</h1>
+                    <div className="paragraphs">{this.state.autobio}</div>
+                </div>
             </div>
         )
     }

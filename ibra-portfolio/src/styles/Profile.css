@@ -1,18 +1,28 @@
 .Profile{
    /* background-color: rgb(243, 243, 217);*/
     color: black;
-    /*margin: 20px;*/
+    /*margin: 20px;*/ 
     padding: 20px;
     padding-bottom: 100px;
     margin-right: 200px;
     margin-left: 200px;
     border-style: hidden;
+    justify-content: center;
     /*background-image: rgb(242, 254, 255, 0.5);*/
     /*border-radius: 15px;*/
-    /*background-image: linear-gradient( rgb(48, 252, 48, 0.7),#6EE300)*/
-    
+    /*background-image: linear-gradient( rgb(48, 252, 48, 0.7),#6EE300)*/    
 }
 
 h1, h3, p {
     font-family: Swift; /*Inverserif Antipol futura;*/
+}
+
+.profile-container {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    max-width: 75%;
+    justify-content: center;
+    text-align: center;
 }
