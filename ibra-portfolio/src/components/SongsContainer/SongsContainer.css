@@ -1,7 +1,6 @@
 .SongsContainer{
     padding-top: 10px;
-    display: flex;
-    
+    display: flex;   
     flex-direction: column;
     justify-content: flex-start;
     color:rgb(31, 39, 39);
@@ -19,10 +18,10 @@
 }
 
 .name{
-    color:rgb(247, 247, 28);
+    color:rgb(27, 27, 26);
     border-width: 100%;
     border-bottom-style:groove;
-    border-color: #E0DFFD;
+    border-color: #030211;
 }
 
 h2{
