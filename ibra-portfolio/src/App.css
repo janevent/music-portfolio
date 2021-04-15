@@ -10,7 +10,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  font-family: Swift;
+  font-family: Arial;
   /*display: flex;
   flex-direction: column;
   height: 100%;*/
@@ -23,7 +23,7 @@
 
 
 .App-header {
-  background-color: rgba(255, 251, 17, .8);/*#FAFF00;/* #21d830;*/
+  background-color: rgb(252, 248, 31, .5);/*#FAFF00;/* #21d830;*/
  /*opacity: .75;*/
   min-height: 50vh;
   display: flex;
@@ -42,6 +42,7 @@
 
 h2{
   color:#FB8C14;
+
 }
 
 

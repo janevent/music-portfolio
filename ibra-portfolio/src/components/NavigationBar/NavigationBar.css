@@ -11,15 +11,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;      /*
+    justify-content: center;   
+    color:#FB8C14;   /*
     padding-top: 10px; */
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color:#FB8C14;
     /*#d8c621;
     /*font-family: Swift;*/
+    font-family: Arial;
     font-weight: bold;
     font-size: 1.5em;
     padding: 5px;
