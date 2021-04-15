@@ -1,10 +1,7 @@
-
-
 .App {
   text-align: center;
   /*background-color: rgb(241, 241, 169);*/
   background-image: linear-gradient( to bottom,transparent, rgb(241,241,269)), url("nashad-abdu-lbuXprjhtc4-unsplash-cropped.jpg");
-  
   background-size: cover;
   color: rgb(170, 104, 5);/*#1507F8;*/
   position: absolute;
@@ -18,9 +15,8 @@
 
 .main{
   /*flex: 1 1 auto;*/
-  background-image: linear-gradient( rgba(125, 243, 56, 0.6),#6EE300);
+  background-image: linear-gradient(rgba(125, 243, 56, 0.4),rgb(125, 243, 56, 0.9) 25%, rgb(82, 153, 41));
 }
-
 
 .App-header {
   background-color: rgb(252, 248, 31, .5);/*#FAFF00;/* #21d830;*/
@@ -42,7 +38,6 @@
 
 h2{
   color:#FB8C14;
-
 }
 
 
