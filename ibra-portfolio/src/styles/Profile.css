@@ -30,10 +30,10 @@ h3, p {
     padding-left: 20px;
     padding-top: 0px;
     /*max-width: 75%;*/
-    border-style:groove;
-    border-color:rgb(158, 188, 252);
+    border-style: solid;
+    border-color: #5995B2;
     border-width: 1px;
     justify-content: center;
     text-align: center;
-    box-shadow: 2.5px 5px 2.5px rgb(134, 154, 197);
+    box-shadow: 2.5px 5px 2.5px #7a9daf;
 }
