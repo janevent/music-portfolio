@@ -21,7 +21,7 @@ class App extends React.Component {
       <Router>
         <div className="App">
           <header className="App-header">
-            <div><h2>The Lion's Whiskers</h2></div>          
+            <div><h2 className='header-title'>The Lion's Whiskers</h2></div>          
           </header>
           <NavigationBar />
           <div className="main" >         
