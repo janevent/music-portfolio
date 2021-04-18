@@ -1,3 +1,3 @@
-const autobio = "My roots are in East Africa.  The main message throughout my music is one of peace and unity.  Whilst some songs are in the language of Luganda and pertain to the political discourse in Uganda, the underlying theme is world peace."
+const autobio = "Afrik's roots are in East Africa. He has made a home in Canada with his wife and four children. He still has strong ties to Africa though. He is a long time poet and song writer. The main message throughout his music is one of peace and unity.  Whilst some songs are in the language of Luganda and pertain to the political discourse in Uganda, the underlying theme in his work is world peace. Freedom Song is a song that Afriq wrote many years ago, and has kept in his back pocket.  More recently, in 2020, he worked with a Canadian producer to revitalize and release it."
 
 export default autobio
