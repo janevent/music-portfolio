@@ -1,8 +1,8 @@
 //import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home';
 import Profile from './components/Profile.js';
 import SongsContainer from './components/SongsContainer/SongsContainer.js';
+import Credit from './components/Credit/Credit.js';
 import NavigationBar from './components/NavigationBar/NavigationBar.js';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import React from 'react';
@@ -29,6 +29,7 @@ class App extends React.Component {
               <Route exact path="/" render={(props) => <Profile {...props} profile={this.state.profile}/>} />
               <Route exact path="/songs" component={SongsContainer} />
             </Switch>
+            <Credit/>
           </div>
         </div>
       </Router>
