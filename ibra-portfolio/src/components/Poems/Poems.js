@@ -1,7 +1,10 @@
 import React, { useState} from 'react';
-import '../texts/poems.js';
 
-export default function Poems(){
-    const [title1, title2, poem1, poem2] = useState()
+
+export default function Poems(props){
+    const [title1, setTitle1] = useState("A Killer");
+    const [title2, setTitle2] = useState("Life");
+    const [poem1, setPoem1] = useState(props.poem1);
+    const [poem2, setPoem2] = useState(props.poem2);
 }
 
