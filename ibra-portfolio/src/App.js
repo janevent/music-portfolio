@@ -7,6 +7,7 @@ import NavigationBar from './components/NavigationBar/NavigationBar.js';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import React from 'react';
 import autobio from'./texts/autobio.js';
+import poem1 from './texts/poems.js';
 
 class App extends React.Component {
   state = {

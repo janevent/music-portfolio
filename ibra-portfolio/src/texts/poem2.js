@@ -1,0 +1,3 @@
+const poem2 = ["Rise and shine", "It's a life", "It's a mist, a flavoured mist", "Oh it dissapeared", "Was it there yesterday?", "I can't tell", "Will it be there tommorrow?", "No one can tell", "Am I dreaming? Is it real?", "It feels like", "Does it continue? It feels like", "Tell me what is life?", "It's beauty that fades away", "Call me something, and I won't believe you", "Call me nothing and I will believe you", "Does it belong to me?",  "It doesn't feel like", "Does it belong to somebody. It feels like", "Is it a clock with one disposable battery", "Am blind, am deaf, speachless", "Some one tell me what's life?", "It has been a mystery"]
+
+export default poem2
