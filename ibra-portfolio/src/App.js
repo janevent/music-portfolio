@@ -16,9 +16,9 @@ class App extends React.Component {
     profile : {
       name: "Afrik",
       autobio: autobio,
-      poem1: poem1,
-      poem2: poem2
-    }
+    },
+    poem1: poem1,
+    poem2: poem2
   }
 
   render (){
@@ -33,7 +33,7 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/" render={(props) => <Profile {...props} profile={this.state.profile}/>} />
               <Route exact path="/songs" component={SongsContainer} />
-              <Route exact path="poems" render={(props) => <Poems {...props} poem1={this.state.poem1} poem2={this.state.poem2}/>} />
+              <Route exact path="/poems" render={(props) => <Poems {...props} poem1={this.state.poem1} poem2={this.state.poem2}/>} />
             </Switch>
             <Credit/>
           </div>
