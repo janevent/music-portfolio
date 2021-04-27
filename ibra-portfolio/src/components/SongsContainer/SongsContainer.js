@@ -1,5 +1,6 @@
 import React from 'react';
 import DisplaySong from '../DisplaySong/DisplaySong';
+import Credit from '../Credit/Credit.js';
 import './SongsContainer.css';
 import songs from '../../songs';
 
@@ -21,6 +22,7 @@ export default class SongsContainer extends React.Component{
                 <div>
                     {this.mapSongs()}
                 </div>
+                <Credit/>
             </div>
         )
     }

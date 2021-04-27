@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Profile.css';
+import Credit from './Credit/Credit.js';
 
 
 export default class Profile extends React.Component{
@@ -18,6 +19,7 @@ export default class Profile extends React.Component{
                     <h1>About {this.state.name}</h1>
                     <div className="paragraphs">{this.state.autobio}</div>
                 </div>
+                <Credit/>
             </div>
         )
     }

@@ -1,5 +1,7 @@
 .Poems {
-    font-size: 2em;
+    font-size: 1.5em;
     color: black;
     background-color: skyblue;
+    margin: 0;
+    padding: 20px;
 }
