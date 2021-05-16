@@ -15,6 +15,10 @@
    /*background-image: url("raja-natarajan-ymQlRqwLcUo-unsplash.jpg")*/
 }
 
+.App {
+    background-size: cover;
+}
+
 .ReactPlayer {
     opacity: 1;
 }

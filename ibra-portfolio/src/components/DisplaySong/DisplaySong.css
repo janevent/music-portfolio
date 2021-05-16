@@ -20,3 +20,7 @@
 .ReactPlayer {
     opacity: 1;
 }
+
+.App {
+    background-size: cover;
+}

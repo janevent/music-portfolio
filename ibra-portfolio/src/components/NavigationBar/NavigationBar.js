@@ -8,7 +8,8 @@ export default class NavigationBar extends React.Component {
         return (
             <div className="NavigationBar">               
                     <Link to="/songs">Songs</Link>
-                    <Link to="/">About</Link>                
+                    <Link to="/">About</Link> 
+                    <Link to="/poems">Poems</Link>               
             </div>
         )
     }

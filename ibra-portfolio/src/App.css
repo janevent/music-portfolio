@@ -2,7 +2,8 @@
   text-align: center;
   /*background-color: rgb(241, 241, 169);*/
   background-image: linear-gradient( to bottom,transparent, rgb(241,241,269)), url("nashad-abdu-lbuXprjhtc4-unsplash-centered.jpg");
-  background-size: cover;
+  background-size: initial; /*cover; /*contain*/
+  
   overflow: hidden;
   color: rgb(170, 104, 5);/*#1507F8;*/
   position: absolute;
