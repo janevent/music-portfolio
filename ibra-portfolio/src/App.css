@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   /*background-color: rgb(241, 241, 169);*/
-  background-image: linear-gradient( to bottom,transparent, rgb(241,241,269)), url("nashad-abdu-lbuXprjhtc4-unsplash-centered.jpg");
+  background-image: linear-gradient( to bottom, rgb(255, 241, 269, .2), rgb(255,241,269,0.1)), url("nashad-abdu-lbuXprjhtc4-unsplash-centered.jpg");
   background-size: initial; /*cover; /*contain*/
   
   overflow: hidden;

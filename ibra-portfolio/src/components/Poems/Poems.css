@@ -1,12 +1,27 @@
 .Poems {
-    font-size: 1.5em;
+    font-size: 1em;
     color: black;
     background-image: 
         linear-gradient(to right, transparent, rgb(127, 165, 180)),
-        linear-gradient(to bottom, transparent, rgb(127, 165, 180));
+        linear-gradient(to bottom, rgb(127, 165, 180, .1), rgb(127, 165, 180) 42%, rgb(127, 165, 180, .1)), url(michal-mrozek-butterfly-unsplash.jpg);
         /*rgba(78, 201, 250, 0.8)); /*url("michal-mrozek-butterfly-unsplash.jpg");*/
+    
+    background-position: top, top, bottom; /*right 20% bottom 45%;*/
+    background-size: contain, contain, contain;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+ p {
+    color: black;
+    font-weight:100;
+ }
+
+#secondPoem {
+    
+    background-position: right 20% bottom 45%;
 }
 /*.App {
     background-size: contain;

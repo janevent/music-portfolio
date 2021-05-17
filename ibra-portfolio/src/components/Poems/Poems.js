@@ -26,7 +26,7 @@ export default function Poems(props){
             <h3>{title1}</h3>
             <div>{returnPoem(props.poem1)}</div>
             <h3>{title2}</h3>
-            <div>{returnPoem(props.poem2)}</div>
+            <div id="secondPoem">{returnPoem(props.poem2)}</div>
         </div>
     )
 }
