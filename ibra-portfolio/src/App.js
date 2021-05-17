@@ -35,7 +35,7 @@ class App extends React.Component {
               <Route exact path="/songs" component={SongsContainer} />
               <Route exact path="/poems" render={(props) => <Poems {...props} poem1={this.state.poem1} poem2={this.state.poem2}/>} />
             </Switch>
-            <Credit/>
+            
           </div>
         </div>
       </Router>

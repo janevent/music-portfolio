@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Poems.css';
+import Credit from '../Credit/Credit';
 
 export default function Poems(props){
     const [title1, setTitle1] = useState('A Killer');
@@ -10,8 +11,10 @@ export default function Poems(props){
     useEffect(() => {
         console.log("I have been mounted");
         document.getElementsByClassName("App")[0].style.backgroundSize = "contain";
+        document.getElementsByClassName("Credit")[0].innerHTML = "Background photos by Michal Mrozek and Nashad Abdu"
         return function cleanUp(){
             document.getElementsByClassName("App")[0].style.backgroundSize = "cover";
+            document.getElementsByClassName("Credit")[0].innerHTML = "Background photo by Nashad Abdu"
         }
     });
 
@@ -27,6 +30,7 @@ export default function Poems(props){
             <div>{returnPoem(props.poem1)}</div>
             <h3>{title2}</h3>
             <div id="secondPoem">{returnPoem(props.poem2)}</div>
+            <Credit/>
         </div>
     )
 }
