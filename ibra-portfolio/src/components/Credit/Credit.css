@@ -1,11 +1,22 @@
-.Credit {
-    text-align: right;
-    color: #30637a;    
-    margin: auto;
-    padding: 10px;
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
+@media screen and (min-width: 768px){
+    .Credit {
+        text-align: right;
+        color: #30637a;    
+        margin: auto;
+        padding: 10px;
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .Credit {
+        text-align: right;
+        color: #30637a;
+        padding: 15px;
+    }
+
 }
 
 p {
