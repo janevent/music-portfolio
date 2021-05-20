@@ -51,8 +51,8 @@
     text-align: center;
     /*background-color: rgb(241, 241, 169);*/
     background-image: linear-gradient( to bottom, rgb(255, 241, 269, .2), rgb(255,241,269,0.1)), url("nashad-abdu-lbuXprjhtc4-unsplash-centered.jpg");
-    background-size: 100%; /*cover; /*contain*/  
-    background-position: center;
+    background-size: cover;/*100%; /*cover; /*contain*/  
+    background-position: top; /*center;*/
     color: rgb(170, 104, 5);/*#1507F8;*/
     font-family: Arial;
   }
