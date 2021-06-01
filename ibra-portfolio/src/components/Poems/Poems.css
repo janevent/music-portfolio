@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 768px){
     .Poems {
         font-size: 1em;
@@ -17,12 +19,15 @@
     }
 }
 
-@media screen and (max-width: 767px){   
+
+
+@media screen and (max-width: 1024px){   
         .Poems {
-            font-size: 1em;
+            font-size: 3em;
             color: black;
             background-image: 
-                linear-gradient(to right, transparent, rgb(127, 165, 180)),
+                linear-gradient(to bottom, transparent, rgb(78, 201, 250) 18%), url(michal-mrozek-butterfly-unsplash.jpg);
+                /*linear-gradient(to right, transparent, rgb(127, 165, 180)),
                 linear-gradient(to bottom, transparent, rgb(127, 165, 180, 0.9) 35%, rgb(127, 165, 180, 0.3) 45%, rgb(78, 201, 250) 60%, rgb(78, 201, 250, 0.4) 77%, rgb(78, 201, 250)), url(michal-mrozek-butterfly-unsplash.jpg);
             background-color: rgba(78, 201, 250); /*("michal-mrozek-butterfly-unsplash.jpg");*/
             
@@ -33,16 +38,27 @@
             padding: 20px;
             padding-top: 80px;
             padding-bottom: 40px;
-        }      
+        }   
 }
 
     p {
         color: black;
-        font-weight:100;
+        font-weight:200;
     }
 
     #secondPoem {   
         background-position: right 20% bottom 45%;
+    }
+
+    @media screen and(max-width: 480px){
+        .Poems {
+            background-image: rgb(78, 201, 250);
+            background-color: rgb(78, 201, 250);
+        }
+        p{
+            font-size: 1em;
+            font-weight: 200;
+        }
     }
     /*.App {
         background-size: contain;

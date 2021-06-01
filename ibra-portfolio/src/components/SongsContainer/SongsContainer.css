@@ -1,4 +1,4 @@
-@media screen and (min-width: 767px){
+
     .SongsContainer{
         padding-top: 10px;
         padding-bottom: 30px;
@@ -33,7 +33,7 @@
         margin-bottom: 40px;
         margin-top: 50px;
     }
-}
+
 
 @media screen and (max-width: 767px){
     .SongsContainer{        
@@ -52,7 +52,6 @@
 
     .name{
         color:#30637a;
-
         border-width: 100%;
         font-size: 1.5em; 
     }
