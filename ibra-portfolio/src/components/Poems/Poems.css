@@ -21,23 +21,24 @@
 
 
 
-@media screen and (max-width: 1024px){   
+@media screen and (max-width: 768px){   
         .Poems {
-            font-size: 3em;
+            font-size: 2em;
             color: black;
             background-image: 
-                linear-gradient(to bottom, transparent, rgb(78, 201, 250) 18%), url(michal-mrozek-butterfly-unsplash.jpg);
+            linear-gradient(to bottom, transparent, rgb(40, 120, 151, .9) 75%, transparent 90% ), linear-gradient(to bottom, rgb(78, 201, 250, .6), rgb(78, 201, 250) 20%, rgb(78, 201, 250) 65%, rgb(78, 201, 250, .5) 90%, rgb(78, 201, 250) ), url(michal-mrozek-butterfly-unsplash.jpg);
                 /*linear-gradient(to right, transparent, rgb(127, 165, 180)),
                 linear-gradient(to bottom, transparent, rgb(127, 165, 180, 0.9) 35%, rgb(127, 165, 180, 0.3) 45%, rgb(78, 201, 250) 60%, rgb(78, 201, 250, 0.4) 77%, rgb(78, 201, 250)), url(michal-mrozek-butterfly-unsplash.jpg);
             background-color: rgba(78, 201, 250); /*("michal-mrozek-butterfly-unsplash.jpg");*/
             
-            background-position: top, top, top; /*right 20% bottom 45%;*/
-            background-size: contain, contain, contain;
-            background-repeat: initial;
-            margin: 0;
-            padding: 20px;
+            background-position: top; /*right 20% bottom 45%;*/
+            background-size: contain, contain;
+            background-repeat: repeat;
+            
+            padding: 30px;
             padding-top: 80px;
             padding-bottom: 40px;
+           
         }   
 
         
@@ -48,17 +49,25 @@
         
     }
 
-    /*#secondPoem {   
-        background-position: right 20% bottom 45%;
-    }*/
+    #secondPoem {   
+        margin-top: 20px;
+    }
+    h3:nth-child(2) {
+        margin-top: 80px;
+    }
 
-    /* @media screen and (max-width: 768px){
+    p {
+        padding: 0;
+        margin-top: 0;
+        line-height: 1.25em;
+    }
+    @media screen and (max-width: 540px){
         .Poems {
             background-image: rgb(78, 201, 250);
             background-position: top;
             font-size: 1.5em;
         }
-    } */
+    } 
 
     /*@media screen and(max-width: 480px){
         .Poems {

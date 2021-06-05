@@ -24,7 +24,7 @@ p {
     color: #30637a;
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 768px){
     .Credit {
         display: none;
         text-align: right;

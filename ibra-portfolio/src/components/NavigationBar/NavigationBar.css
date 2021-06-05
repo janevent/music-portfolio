@@ -3,7 +3,7 @@
 .NavigationBar{
     font-size:large;
     font-family: Swift;;
-    background-color: rgba(208, 233, 247, 0.5);
+    background-color: rgb(131, 206, 250);
    /*#B7FF74;/*#7BFF00; /*#e7e5fe;
     /*rgb(206, 252, 206);/*rgb(47, 99, 167); /*rgb(4, 131, 42);*/
     min-width: auto;
@@ -17,7 +17,7 @@
 
 a {
     text-decoration: none;
-    color: #30637a;
+    color: #058dcc;
     /*#d8c621;
     /*font-family: Swift;*/
     font-family: Arial;

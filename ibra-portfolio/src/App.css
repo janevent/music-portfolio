@@ -95,7 +95,7 @@ h2{
   .App {  
     text-align: center;
     /*background-color: rgb(241, 241, 169);*/
-    background-image: linear-gradient( to bottom, rgb(250, 234, 6), rgb(82, 153, 41)33%);
+    background-image: linear-gradient( to bottom, rgb(250, 234, 6), rgb(82, 153, 41)50%);
     background-color: rgb(250, 234, 6);
     background-repeat: no-repeat;
     background-size: cover, contain;/*100%; /*cover; /*contain*/  
