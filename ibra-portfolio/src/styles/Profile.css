@@ -71,8 +71,7 @@ h3, p {
     .profile-container {
         background-color: white;
         margin-top: 25px;
-        padding: 5px;
-        
+        padding: 5px;   
         /*max-width: 75%;*/
         border-style: solid;
         border-color: #5995B2;
@@ -81,6 +80,7 @@ h3, p {
         text-align: center;
         box-shadow: 2.5px 5px 2.5px #7a9daf;
     }
+
     .Profile{
         color: black;
         padding-top: 15px;
@@ -90,5 +90,11 @@ h3, p {
         font-size: 1.5em;
         margin: auto;
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .Profile{
+        width: 100%;
     }
 }
