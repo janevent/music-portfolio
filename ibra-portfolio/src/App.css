@@ -91,5 +91,32 @@ h2{
   color:#FB8C14;
 }
 
+@media only screen and (max-width: 540px){
+  .App {  
+    text-align: center;
+    /*background-color: rgb(241, 241, 169);*/
+    background-image: linear-gradient( to bottom, rgb(250, 234, 6), rgb(82, 153, 41)33%);
+    background-color: rgb(250, 234, 6);
+    background-repeat: no-repeat;
+    background-size: cover, contain;/*100%; /*cover; /*contain*/  
+    background-position: center; /*center;*/
+    color: rgb(170, 104, 5);/*#1507F8;*/
+    font-family: Arial;
+    font-size: 1em;
+  }
+
+  .App-header {
+    background-color: rgba(245, 241, 21, 0.55);/*#FAFF00;/* #21d830;*/
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Swift;
+    color: #FB8C14;/*#1507F8;*/
+    font-size: 1em;
+  }
+}
+
 
 
