@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px){
+/*@media screen and (min-width: 767px){*/
     .Profile{
     /* background-color: rgb(243, 243, 217);*/
         color: black;
@@ -30,7 +30,7 @@
         text-align: center;
         box-shadow: 2.5px 5px 2.5px #7a9daf;
     }
-}
+/*}*/
 
 h1 {
     color: rgb(48, 194, 3);
@@ -42,14 +42,13 @@ h3, p {
     font-family: Arial; /*Inverserif Antipol futura;*/
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1024px){
     .profile-container {
         background-color: white;
-        margin: 20px;
-        padding-bottom: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 0px;
+        margin-top: 20px;
+        padding: 2px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         /*max-width: 75%;*/
         border-style: solid;
         border-color: #5995B2;
@@ -60,9 +59,36 @@ h3, p {
     }
     .Profile{
         color: black;
-        padding: 20px;
+        padding: 2px;
         padding-bottom: 100px;
         border-style: hidden;
         justify-content: center;
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .profile-container {
+        background-color: white;
+        margin-top: 0px;
+        padding: 5px;
+        
+        /*max-width: 75%;*/
+        border-style: solid;
+        border-color: #5995B2;
+        border-width: 1px;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 2.5px 5px 2.5px #7a9daf;
+    }
+    .Profile{
+        color: black;
+        padding-top: 15px;
+        padding-bottom: 100px;
+        border-style: hidden;
+        justify-content: center;
+        font-size: 1.5em;
+        margin: auto;
+        width: 80%;
     }
 }

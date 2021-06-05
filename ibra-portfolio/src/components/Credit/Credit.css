@@ -10,11 +10,12 @@
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     .Credit {
         text-align: right;
         color: #30637a;
-        padding: 15px;
+        padding: 25px;
+        margin: 10px;
     }
 
 }

@@ -39,18 +39,28 @@
             padding-top: 80px;
             padding-bottom: 40px;
         }   
+
+        
 }
 
     p {
         color: black;
-        font-weight:200;
+        
     }
 
-    #secondPoem {   
+    /*#secondPoem {   
         background-position: right 20% bottom 45%;
-    }
+    }*/
 
-    @media screen and(max-width: 480px){
+    /* @media screen and (max-width: 768px){
+        .Poems {
+            background-image: rgb(78, 201, 250);
+            background-position: top;
+            font-size: 1.5em;
+        }
+    } */
+
+    /*@media screen and(max-width: 480px){
         .Poems {
             background-image: rgb(78, 201, 250);
             background-color: rgb(78, 201, 250);
