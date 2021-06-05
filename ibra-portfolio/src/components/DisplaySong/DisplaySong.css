@@ -48,3 +48,25 @@
         padding-top: 0px;
     }
 }
+
+@media screen and (max-width: 540px){
+    .ReactPlayer {
+        width: auto;
+        height: auto;
+      }
+      
+    .react-player {
+       padding-top: 56.25%;
+       position: relative;       
+    }
+
+    .react-player > div {
+        position: absolute;
+    }
+
+    .DisplaySong{
+        padding-bottom: 150px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+}
