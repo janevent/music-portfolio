@@ -23,3 +23,14 @@
 p {
     color: #30637a;
 }
+
+@media screen and (max-width: 540px){
+    .Credit {
+        display: none;
+        text-align: right;
+        color: #30637a;
+        padding: 25px;
+        margin: 10px;
+    }
+
+}
