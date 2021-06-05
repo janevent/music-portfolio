@@ -70,7 +70,7 @@ h3, p {
 @media screen and (max-width: 768px){
     .profile-container {
         background-color: white;
-        margin-top: 0px;
+        margin-top: 25px;
         padding: 5px;
         
         /*max-width: 75%;*/
