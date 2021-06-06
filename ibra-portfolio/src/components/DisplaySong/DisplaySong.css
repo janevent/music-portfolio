@@ -24,8 +24,23 @@
 .App {
     background-size: cover;
 }
+
+.ReactPlayer {
+    width: auto;
+    height: auto;
+    padding-bottom: 60%;
+  }
+  
+.react-player {
+   padding-top: 56.25%;
+   position: relative;     
+}
+
+.react-player > div {
+    position: absolute;
+}
 /*min-width: 250px */
-@media screen and ( max-width: 1024px ) {
+/*@media screen and ( max-width: 1024px ) {
 
     .ReactPlayer {
         width: auto; 
@@ -34,20 +49,20 @@
       }
       .react-player {
         /*padding-top: 56.25%; */
-        position: relative;
+      /*  position: relative;
         padding-bottom: 20px; 
         margin: 50px;
-      }
+      }*/
       
       /*.react-player > div {
         position: absolute;       
-    }*/
+    }
 
     .DisplaySong {
         padding-bottom: 20px;
         padding-top: 0px;
     }
-}
+}*/
 
 @media screen and (max-width: 540px){
     .ReactPlayer {
@@ -57,7 +72,9 @@
       
     .react-player {
        padding-top: 56.25%;
-       position: relative;       
+       position: relative;  
+       width: "100%";
+       height: "100%";     
     }
 
     .react-player > div {
