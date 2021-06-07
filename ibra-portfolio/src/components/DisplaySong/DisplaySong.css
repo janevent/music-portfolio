@@ -21,10 +21,6 @@
     opacity: 1;
 }
 
-.App {
-    background-size: cover;
-}
-
 .ReactPlayer {
     width: auto;
     height: auto;
@@ -81,9 +77,9 @@
         position: absolute;
     }
 
-    .DisplaySong{
+    /*.DisplaySong{
         padding-bottom: 150px;
         padding-top: 0px;
         margin-top: 0px;
-    }
+    }*/
 }
