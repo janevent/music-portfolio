@@ -117,6 +117,18 @@ h2{
     color: #FB8C14;/*#1507F8;*/
     font-size: 1em;
   }
+
+  .main{
+    /*flex: 1 1 auto;*/
+    background-image: linear-gradient(rgba(125, 243, 56, 0.25), rgb(125, 243, 56, 0.5) 45%, rgb(82, 153, 41));
+  }
+
+}
+
+@media only screen and (max-width: 411px){
+  .main{
+    background-image: linear-gradient(rgba(125, 243, 56, 0.25), rgb(125, 243, 56, 0.6) 15%, rgb(104, 187, 27) 30%, rgb(82, 153, 41));
+  } 
 }
 
 
