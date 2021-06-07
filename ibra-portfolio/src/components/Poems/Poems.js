@@ -10,12 +10,10 @@ export default function Poems(props){
 
     useEffect(() => {
         console.log("I have been mounted");
-        //document.getElementsByClassName("App")[0].style.backgroundSize = "contain";
-        //document.getElementsByClassName("Credit")[0].innerHTML = "Background photos by Michal Mrozek and Nashad Abdu"
-        //return function cleanUp(){
-          //  document.getElementsByClassName("App")[0].style.backgroundSize = "cover";
-            //document.getElementsByClassName("Credit")[0].innerHTML = "Background photo by Nashad Abdu"
-        //}
+        document.getElementsByClassName("Credit")[0].innerHTML = "Background photos by Michal Mrozek and Nashad Abdu"
+        return function cleanUp(){
+            document.getElementsByClassName("Credit")[0].innerHTML = "Background photo by Nashad Abdu"
+        }
     });
 
     const returnPoem = (poem)=> {
