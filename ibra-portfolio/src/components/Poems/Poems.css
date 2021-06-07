@@ -1,4 +1,20 @@
 
+p {
+    color: black;   
+}
+
+#secondPoem {   
+    margin-top: 20px;
+}
+h3:nth-child(2) {
+    margin-top: 80px;
+}
+
+p {
+    padding: 0;
+    margin-top: 0;
+    line-height: 1.25em;
+}
 
 @media screen and (min-width: 769px){
     .Poems {
@@ -6,10 +22,8 @@
         color: black;
         background-image: 
             linear-gradient(to right, transparent, rgb(127, 165, 180)),
-            linear-gradient(to bottom, rgb(127, 165, 180, .1), rgb(127, 165, 180) 35%, rgb(133, 165, 180) 50%, rgb(127, 165, 180, .1)), url(michal-mrozek-butterfly-unsplash.jpg);
-            /*rgba(78, 201, 250, 0.8)); /*url("michal-mrozek-butterfly-unsplash.jpg");*/
-        
-        background-position: top, top, bottom; /*right 20% bottom 45%;*/
+            linear-gradient(to bottom, rgb(127, 165, 180, .1), rgb(127, 165, 180) 35%, rgb(133, 165, 180) 50%, rgb(127, 165, 180, .1)), url(michal-mrozek-butterfly-unsplash.jpg);      
+        background-position: top, top, bottom; 
         background-size: contain, contain, contain;
         background-repeat: no-repeat;
         margin: 0;
@@ -19,63 +33,25 @@
     }
 }
 
-
-
 @media screen and (max-width: 768px){   
         .Poems {
             font-size: 2em;
             color: black;
             background-image: 
             linear-gradient(to bottom, transparent, rgb(40, 120, 151, .9) 75%, transparent 90% ), linear-gradient(to bottom, rgb(78, 201, 250, .6), rgb(78, 201, 250) 20%, rgb(78, 201, 250) 65%, rgb(78, 201, 250, .5) 90%, rgb(78, 201, 250) ), url(michal-mrozek-butterfly-unsplash.jpg);
-                /*linear-gradient(to right, transparent, rgb(127, 165, 180)),
-                linear-gradient(to bottom, transparent, rgb(127, 165, 180, 0.9) 35%, rgb(127, 165, 180, 0.3) 45%, rgb(78, 201, 250) 60%, rgb(78, 201, 250, 0.4) 77%, rgb(78, 201, 250)), url(michal-mrozek-butterfly-unsplash.jpg);
-            background-color: rgba(78, 201, 250); /*("michal-mrozek-butterfly-unsplash.jpg");*/
-            
-            background-position: top; /*right 20% bottom 45%;*/
+            background-position: top; 
             background-size: contain, contain;
-            background-repeat: repeat;
-            
+            background-repeat: repeat;            
             padding: 30px;
             padding-top: 80px;
             padding-bottom: 40px;
         }           
 }
 
-    p {
-        color: black;
-        
+@media screen and (max-width: 540px){
+    .Poems {
+        background-image: rgb(78, 201, 250);
+        background-position: top;
+        font-size: 1.5em;
     }
-
-    #secondPoem {   
-        margin-top: 20px;
-    }
-    h3:nth-child(2) {
-        margin-top: 80px;
-    }
-
-    p {
-        padding: 0;
-        margin-top: 0;
-        line-height: 1.25em;
-    }
-    @media screen and (max-width: 540px){
-        .Poems {
-            background-image: rgb(78, 201, 250);
-            background-position: top;
-            font-size: 1.5em;
-        }
-    } 
-
-    /*@media screen and(max-width: 480px){
-        .Poems {
-            background-image: rgb(78, 201, 250);
-            background-color: rgb(78, 201, 250);
-        }
-        p{
-            font-size: 1em;
-            font-weight: 200;
-        }
-    }
-    /*.App {
-        background-size: contain;
-    }*/
+} 

@@ -1,8 +1,4 @@
 .DisplaySong {
-    /*background-color: rgb(241, 241, 169);*/
-    /*padding: 10px;*/
-    /*background-image: url(../../nashad-abdu-lbuXprjhtc4-unsplash-cropped.jpg);*/
-    /*background-color: rgb(48, 252, 48, 0.5);*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +8,7 @@
 .songTitle{
    padding-top:10px;
    padding-bottom:5px;
-   color: #c96a05;/*#1507F8;*/
+   color: #c96a05;
    font-size: 3em;
    border-width: 100%;
 }
@@ -35,30 +31,6 @@
 .react-player > div {
     position: absolute;
 }
-/*min-width: 250px */
-/*@media screen and ( max-width: 1024px ) {
-
-    .ReactPlayer {
-        width: auto; 
-        height: auto;
-        padding-bottom: 20px; 
-      }
-      .react-player {
-        /*padding-top: 56.25%; */
-      /*  position: relative;
-        padding-bottom: 20px; 
-        margin: 50px;
-      }*/
-      
-      /*.react-player > div {
-        position: absolute;       
-    }
-
-    .DisplaySong {
-        padding-bottom: 20px;
-        padding-top: 0px;
-    }
-}*/
 
 @media screen and (max-width: 540px){
     .ReactPlayer {
@@ -76,10 +48,4 @@
     .react-player > div {
         position: absolute;
     }
-
-    /*.DisplaySong{
-        padding-bottom: 150px;
-        padding-top: 0px;
-        margin-top: 0px;
-    }*/
 }

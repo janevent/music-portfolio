@@ -2,18 +2,10 @@
     .SongsContainer{
         padding: 10px;
         padding-bottom: 30px;
-        
         display: flex;   
         flex-direction: column;
         justify-content: flex-start;
         color:rgb(11, 143, 143);
-        /*background-image: linear-gradient( rgb(48, 252, 48, 0.7),#6EE300)*/
-        /*linear-gradient( rgb(48, 252, 48, 0.5), rgb(48, 252, 48, 1));
-        /*background-image: url(../../nashad-abdu-lbuXprjhtc4-unsplash.jpg);
-        background-size: cover;
-        opacity: 0.5;*/
-    /* background-color: rgb(241, 241, 169);*/
-    /*background-image: url("raja-natarajan-ymQlRqwLcUo-unsplash.jpg")*/
     }
 
     .ReactPlayer {  
@@ -21,11 +13,11 @@
     }
 
     .name{
-        color: /*rgb(170, 104, 5);#FB8C14;*/rgb(11, 143, 143);
+        color:rgb(11, 143, 143);
         border-width: 100%;
         font-size: 2em;
-        /*border-bottom-style:ridge;*/  
     }
+    
     h2{
         align-self: flex-start;
         text-align: left;

@@ -1,36 +1,29 @@
-/*@media screen and (min-width: 767px){*/
-    .Profile{
-    /* background-color: rgb(243, 243, 217);*/
-        color: black;
-        /*margin: 20px;*/ 
-        padding: 20px;
-        padding-top: 185px;
-        padding-bottom: 100px;
-        margin-right: 200px;
-        margin-left: 200px;
-        border-style: hidden;
-        justify-content: center;
-        /*background-image: rgb(242, 254, 255, 0.5);*/
-        /*border-radius: 15px;*/
-        /*background-image: linear-gradient( rgb(48, 252, 48, 0.7),#6EE300)*/    
-    }
 
-    .profile-container {
-        background-color: white;
-        margin: 20px;
-        padding-bottom: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 0px;
-        /*max-width: 75%;*/
-        border-style: solid;
-        border-color: #5995B2;
-        border-width: 1px;
-        justify-content: center;
-        text-align: center;
-        box-shadow: 2.5px 5px 2.5px #7a9daf;
-    }
-/*}*/
+.Profile{
+    color: black;
+    padding: 20px;
+    padding-top: 185px;
+    padding-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-style: hidden;
+    justify-content: center;
+}
+
+.profile-container {
+    background-color: white;
+    margin: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+    border-style: solid;
+    border-color: #5995B2;
+    border-width: 1px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2.5px 5px 2.5px #7a9daf;
+}
 
 h1 {
     color: rgb(48, 194, 3);
@@ -49,7 +42,6 @@ h3, p {
         padding: 2px;
         padding-top: 5px;
         padding-bottom: 5px;
-        /*max-width: 75%;*/
         border-style: solid;
         border-color: #5995B2;
         border-width: 1px;
@@ -72,7 +64,6 @@ h3, p {
         background-color: white;
         margin-top: 25px;
         padding: 5px;   
-        /*max-width: 75%;*/
         border-style: solid;
         border-color: #5995B2;
         border-width: 1px;
