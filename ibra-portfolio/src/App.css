@@ -95,18 +95,19 @@ h2{
   .App {  
     text-align: center;
     /*background-color: rgb(241, 241, 169);*/
-    background-image: linear-gradient( to bottom, rgb(250, 234, 6), rgb(82, 153, 41)50%);
-    background-color: rgb(250, 234, 6);
+    background-image: linear-gradient( to bottom, rgb(250, 234, 6, 0.2), rgb(247, 222, 4, .2)), url("small-lion-cropped.jpg");
+    /*background-color: rgb(250, 234, 6);*/
     background-repeat: no-repeat;
     background-size: cover, contain;/*100%; /*cover; /*contain*/  
-    background-position: center; /*center;*/
+    background-position: top; /*center;*/
     color: rgb(170, 104, 5);/*#1507F8;*/
     font-family: Arial;
     font-size: 1em;
   }
 
   .App-header {
-    background-color: rgba(245, 241, 21, 0.55);/*#FAFF00;/* #21d830;*/
+    /*background-image: linear-gradient(  to bottom, rgb(255, 241, 269, .2), rgb(255,241,269,0.1)), url("eyes.jpg");/*#FAFF00;/* #21d830;*/
+    /*background-size: contain;*/
     min-height: 30vh;
     display: flex;
     flex-direction: column;

@@ -25,11 +25,11 @@
     width: auto;
     height: auto;
     padding-bottom: 60%;
-  }
+}
   
 .react-player {
-   padding-top: 56.25%;
-   position: relative;     
+  padding-top: 56.25%;
+  position: relative;     
 }
 
 .react-player > div {
