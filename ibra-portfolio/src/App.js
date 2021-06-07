@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
-import Profile from './components/Profile.js';
+import Profile from './components/Profile/Profile.js';
 import SongsContainer from './components/SongsContainer/SongsContainer.js';
 import Credit from './components/Credit/Credit.js';
 import NavigationBar from './components/NavigationBar/NavigationBar.js';
