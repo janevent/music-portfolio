@@ -10,8 +10,10 @@ const Profile = (props) => {
    // const [autobio, setAutobio] = useState(props.profile)
 
     useEffect(() => {
-        console.log("I have been mounted");
-        document.getElementsByClassName("App")[0].style.backgroundSize = "cover";
+        //console.log("I have been mounted");
+        if(window.screen.width > 540){
+            document.getElementsByClassName("App")[0].style.backgroundSize = "cover";
+        }
        
         return function cleanUp(){
             document.getElementsByClassName("App")[0].style.backgroundSize = "contain";    
