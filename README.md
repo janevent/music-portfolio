@@ -1,3 +1,4 @@
 # music-portfolio
-A site to showcase Ibrahim's music and profile
-altering readme
+A portfolio site to showcase works by Afrik.
+Navigate to https://www.thelionswhiskers.com/
+
